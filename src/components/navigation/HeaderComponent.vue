@@ -23,5 +23,6 @@
 <style scoped>
 header {
   height: var(--header-height);
+  background-color: blueviolet;
 }
 </style>
