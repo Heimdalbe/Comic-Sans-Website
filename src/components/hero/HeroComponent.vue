@@ -1,9 +1,10 @@
 <template>
-  <section id="hero">
-    <div class="hero-content">
-      <h1 class="text-4xl">All about heroes</h1>
-      <h2 class="text-xl">Belgium's Geek Bar</h2>
-      <p class="text-base">Take a seat at one of the Superhero tables, play games in the Gameroom or play some boardgames!</p>
+  <section id="hero" class="flex justify-center items-center">
+    <div class="hero-content p-8">
+      <h1 class="text-4xl font-bold text-slate-50 sm:text-8xl">All about heroes</h1>
+      <h2 class="text-2xl font-semibold text-slate-100 sm:text-4xl
+      mb-5">Belgium's Geek Bar</h2>
+      <p class="text-base text-white sm:text-lg">Take a seat at one of the Superhero tables, play games in the Gameroom or play some boardgames!</p>
     </div>
   </section>
 </template>
@@ -12,7 +13,7 @@
 #hero {
   height: 100%;
   background: #303030;
-  background-image: image-set(
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(255,255,255,0) 100%), image-set(
     url("../../assets/images/hero.webp") 1x,
     url("../../assets/images/hero-small.webp") 2x
   );
@@ -27,6 +28,5 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5046218316428134) 50%, rgba(255,255,255,0) 100%);
 }
 </style>
