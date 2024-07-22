@@ -59,3 +59,10 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+
+
+# Ideas
+- Gameroom sectie met games listed
+- Boardgame sectie met games listed
+- Arcade sectie listed
+- About us verplaatsen naar footer naast contact
