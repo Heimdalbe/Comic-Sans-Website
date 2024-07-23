@@ -66,3 +66,7 @@ npm run lint
 - Boardgame sectie met games listed
 - Arcade sectie listed
 - About us verplaatsen naar footer naast contact
+
+## Fonts to use
+- Comic Neue
+- Open Sans
