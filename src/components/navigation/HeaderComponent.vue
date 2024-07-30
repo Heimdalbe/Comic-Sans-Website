@@ -1,9 +1,9 @@
 <!-- import { RouterLink, RouterView } from 'vue-router' -->
 <template>
-  <header>
-    <img src="@/assets/images/logo.webp" alt="Comic Sans Logo" width="75">
+  <header class="flex bg-cover bg-center">
+    <img class="aspect-square" src="@/assets/images/logo.webp" alt="Comic Sans Logo">
     <nav>
-    This is a header component
+      Home
     </nav>
   </header>
 
@@ -24,6 +24,7 @@
 <style scoped>
 header {
   height: var(--header-height);
-  background-color: blueviolet;
+  background-color: var(--color-background);
+  background-image: url('../../assets/images/header-bg.webp');
 }
 </style>

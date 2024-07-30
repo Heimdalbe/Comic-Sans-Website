@@ -13,7 +13,7 @@
 
 <style scoped>
 section {
-  background-color: #FCE541;
+  background-color: var(--color-background);
 }
 
 .photo {
