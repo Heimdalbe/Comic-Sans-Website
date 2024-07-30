@@ -3,8 +3,8 @@
     <div class="hero-content p-8">
       <h1 class="text-4xl font-bold text-slate-50 sm:text-8xl">All about heroes</h1>
       <h2 class="text-2xl font-semibold text-slate-100 sm:text-4xl
-      mb-5">Belgium's Geek Bar</h2>
-      <p class="text-base text-white sm:text-lg">Take a seat at one of the Superhero tables, play games in the Gameroom or play some boardgames!</p>
+      mb-5">Comic Sans</h2>
+      <p class="text-base text-white sm:text-lg">Discover Belgium's Geek Bar: Play games in the Gameroom, conquer boardgames or Take a seat at one of the Superhero tables!</p>
     </div>
   </section>
 </template>

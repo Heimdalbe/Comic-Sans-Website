@@ -1,6 +1,7 @@
 <!-- import { RouterLink, RouterView } from 'vue-router' -->
 <template>
   <header>
+    <img src="@/assets/images/logo.webp" alt="Comic Sans Logo" width="75">
     <nav>
     This is a header component
     </nav>
