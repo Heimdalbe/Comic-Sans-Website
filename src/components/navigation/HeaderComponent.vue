@@ -25,6 +25,6 @@
 header {
   height: var(--header-height);
   background-color: var(--color-background);
-  background-image: url('../../assets/images/header-bg.webp');
+  background-image: url('@/assets/images/header-bg.webp');
 }
 </style>
