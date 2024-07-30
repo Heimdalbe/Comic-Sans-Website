@@ -1,7 +1,7 @@
 <!-- import { RouterLink, RouterView } from 'vue-router' -->
 <template>
   <header class="flex bg-cover bg-center">
-    <img class="aspect-square" src="@/assets/images/logo.webp" alt="Comic Sans Logo">
+    <img class="ml-4 aspect-square" src="@/assets/images/logo.webp" alt="Comic Sans Logo">
     <nav>
       Home
     </nav>
