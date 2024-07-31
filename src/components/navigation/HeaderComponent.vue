@@ -2,26 +2,25 @@
 <template>
   <header class="flex bg-cover bg-center">
     <img class="ml-4 aspect-square" src="@/assets/images/logo.webp" alt="Comic Sans Logo">
-    <nav class="relative flex items-center justify-between w-full p-3">
-      <div class="flex space-x-4">
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/menu">Menu</RouterLink>
-      </div>
+    <nav class="mr-4 flex items-center justify-center space-x-6 w-full">
+      <RouterLink to="/" class="text-xl font-bold 
+        relative w-fit block 
+        after:block after:content-[''] 
+        after:absolute after:h-[3px] 
+        after:bg-black after:w-full 
+        after:scale-x-0 after:hover:scale-x-100 
+        after:transition after:duration-300 
+        after:origin-center">Home</RouterLink>
+      <RouterLink to="/menu" class="text-xl font-bold 
+        relative w-fit block 
+        after:block after:content-[''] 
+        after:absolute after:h-[3px] 
+        after:bg-black after:w-full 
+        after:scale-x-0 after:hover:scale-x-100 
+        after:transition after:duration-300 
+        after:origin-center">Menu</RouterLink>
     </nav>
   </header>
-
-  <!-- <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header> -->
 </template>
 
 <style scoped>
