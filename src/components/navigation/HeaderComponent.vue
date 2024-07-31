@@ -2,8 +2,11 @@
 <template>
   <header class="flex bg-cover bg-center">
     <img class="ml-4 aspect-square" src="@/assets/images/logo.webp" alt="Comic Sans Logo">
-    <nav>
-      Home
+        <nav class="relative flex items-center justify-between w-full p-3">
+    <div class="flex space-x-4">
+        <RouterLink to="/">Home</RouterLink>
+        <RouterLink to="/about">About</RouterLink>
+    </div>
     </nav>
   </header>
 

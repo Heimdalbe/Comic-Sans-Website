@@ -21,12 +21,4 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-#hero::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-}
 </style>
