@@ -9,7 +9,7 @@
 <style scoped>
 object {
   width: 100%;
-  min-height: 100%;
+  min-height: calc(100dvh - var(--header-height));
 }
 </style>
 
