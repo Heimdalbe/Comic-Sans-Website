@@ -34,7 +34,7 @@
   --color-border-hover: var(--vt-c-divider-light-1);
 
   --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-black);
 
   --section-gap: 160px;
 }
@@ -79,4 +79,12 @@ body {
 
 main {
   min-height: calc(100% - var(--header-height));
+}
+
+footer {
+  background-color: var(--vt-c-black);
+}
+
+.icon:hover {
+  fill: var(--color-background);
 }
