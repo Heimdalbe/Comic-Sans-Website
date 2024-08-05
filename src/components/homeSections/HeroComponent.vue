@@ -11,7 +11,7 @@
 
 <style scoped>
 #hero {
-  height: 100%;
+  height: calc(100dvh - var(--header-height));
   background: #303030;
   background-image: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(255,255,255,0) 100%), image-set(
     url("@/assets/images/hero.webp") 1x,

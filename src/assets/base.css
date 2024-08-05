@@ -78,5 +78,5 @@ body {
 }
 
 main {
-  height: calc(100% - var(--header-height));
+  min-height: calc(100% - var(--header-height));
 }
