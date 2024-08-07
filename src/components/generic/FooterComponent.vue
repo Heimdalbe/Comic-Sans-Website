@@ -1,16 +1,17 @@
 <template>
-  <footer class="text-white 
+  <footer class="text-white text-lg
     py-5 px-5 lg:px-48
     grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
     <section id="form" class="col-span-full lg:col-span-1 lg:place-self-start">
       <h2 class="font-semibold text-xl mb-2">Contact Us</h2>
-      <form action="">
+      <a href="mailto:jeroen.baert@hotmail.be">jeroen.baert@hotmail.com</a>
+      <!-- <form action="">
         this is a form
-      </form>
+      </form> -->
     </section>
     <section id="contact" class="place-self-center">
       <h2 class="font-semibold text-xl mb-2">Address</h2>
-      <address class="text-lg">
+      <address>
         <p>Klein Turkije 8</p>
         <p>Ghent, Belgium</p>
       </address>
@@ -27,9 +28,8 @@
       </a>
     </section>
     <section id="copyright" class="col-span-full place-self-center
-      flex flex-col items-center">
-      <p>&#169; Comic Sans {{ copyrightYear }}</p>
-      <p>Made by student organisation 
+      flex flex-col items-center text-sm">
+      <p>&#169; Comic Sans {{ copyrightYear }} - Made by student organisation 
         <a href="https://heimdal.be/" target="_blank">Heimdal</a>
       </p>
     </section>
