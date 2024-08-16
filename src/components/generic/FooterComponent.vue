@@ -1,7 +1,8 @@
 <template>
   <footer class="text-white text-lg
     py-5 px-5 lg:px-48
-    grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
+    grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center
+    max-w-6xl lg:mx-auto">
     <section id="form" class="col-span-full lg:col-span-1 lg:place-self-start
       grid justify-items-center md:justify-items-start">
       <h2 class="font-semibold text-xl mb-2">Contact Us</h2>

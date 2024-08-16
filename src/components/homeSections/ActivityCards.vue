@@ -1,5 +1,5 @@
 <template>
-  <section class="my-12 mx-5 flex-row justify-items-center">
+  <section class="my-12 mx-5 flex-row justify-items-center max-w-6xl lg:mx-auto">
     <h2 class="text-3xl mb-4 font-bold font-sans">Games you can play</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 justify-around">
       <CardComponent title="Boardgames" :list="boardGames" />
