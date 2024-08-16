@@ -5,7 +5,7 @@
     <section id="form" class="col-span-full lg:col-span-1 lg:place-self-start
       grid justify-items-center md:justify-items-start">
       <h2 class="font-semibold text-xl mb-2">Contact Us</h2>
-      <a href="mailto:jeroen.baert@hotmail.be">jeroen.baert@hotmail.com</a>
+      <a href="mailto:jeroen.baert@hotmail.be" class="link">jeroen.baert@hotmail.com</a>
       <!-- <form action="">
         this is a form
       </form> -->
@@ -33,7 +33,7 @@
     <section id="copyright" class="col-span-full place-self-center
       text-sm">
       <p class="text-balance text-center">&#169; Comic Sans {{ copyrightYear }} - Made by student organisation
-        <a href="https://heimdal.be/" target="_blank">Heimdal</a>
+        <a href="https://heimdal.be/" target="_blank" class="link">Heimdal</a>
       </p>
     </section>
   </footer>
