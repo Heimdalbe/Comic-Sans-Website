@@ -3,7 +3,7 @@
   <header class="flex bg-cover bg-center">
     <img class="ml-4 aspect-square" src="@/assets/images/logo.webp" alt="Comic Sans Logo">
     <nav class="mr-4 flex items-center justify-center space-x-6 w-full">
-      <RouterLink to="/" class="text-xl font-bold 
+      <RouterLink to="/" class="text-xl font-semibold 
         relative w-fit block 
         after:block after:content-[''] 
         after:absolute after:h-[3px] 
@@ -11,7 +11,7 @@
         after:scale-x-0 after:hover:scale-x-100 
         after:transition after:duration-300 
         after:origin-center">Home</RouterLink>
-      <RouterLink to="/menu" class="text-xl font-bold 
+      <RouterLink to="/menu" class="text-xl font-semibold 
         relative w-fit block 
         after:block after:content-[''] 
         after:absolute after:h-[3px] 
