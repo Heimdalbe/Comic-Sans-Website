@@ -4,7 +4,7 @@
     grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
     <section id="form" class="col-span-full lg:col-span-1 lg:place-self-start
       grid justify-items-center md:justify-items-start">
-      <h2 class="font-semibold text-xl mb-2">Contact Us</h2>
+      <h2 class="font-semibold text-2xl mb-2 font-sans">Contact Us</h2>
       <a href="mailto:jeroen.baert@hotmail.be" class="link">jeroen.baert@hotmail.com</a>
       <!-- <form action="">
         this is a form
@@ -12,7 +12,7 @@
     </section>
     <section id="contact" class="place-self-center
       grid justify-items-center auto-rows-min md:justify-items-start">
-      <h2 class="font-semibold text-xl mb-2">Address</h2>
+      <h2 class="font-semibold text-2xl mb-2 font-sans">Address</h2>
       <address>
         <p>Klein Turkije 8</p>
         <p>Ghent, Belgium</p>
@@ -20,7 +20,7 @@
     </section>
     <section id="social-media" class="place-self-center
       grid justify-items-center md:justify-items-start">
-      <h2 class="font-semibold text-xl mb-2">Follow Us!</h2>
+      <h2 class="font-semibold text-2xl mb-2 font-sans">Follow Us!</h2>
       <div>
         <a href="https://www.instagram.com/cafecomicsans/" target="_blank" class="inline-block size-10">
           <InstagramIcon />
